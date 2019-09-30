@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Keys - Tanie granie!</title>
+    <link rel="stylesheet" href="style.css" class="rel">
+    <link rel="stylesheet" href="fontello.css" class="rel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/png">
+    <script src="script.js" defer></script>
+    <meta name="theme-color" content="#4c1682">
+    <!-- socjal media, kolor belki (tel) -->
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">
+            <a href="http://keys.k44.eu/" class="header__a">
+                Keys
+            </a>
+        </h1>
+        <p class="header__motto">
+            <span class="header__span">
+                Tanie granie!
+            </span>
+        </p>
+        
+        <nav class="header__nav nav">
+            <ul class="nav__ul">
+                <li class="nav__li">
+                    <a href="http://bit.ly/keys44qsuad" target="_blank" class="nav__link nav__link--shop">
+                        <i class="icon-shopping-basket"></i>
+                        Allegro
+                    </a>
+                </li>
+                <li class="nav__li">
+                    <a href="#shop" data-tooltip="Sklep w budowie" class="nav__link nav__link--off"> 
+                        <i class="icon-basket"></i>
+                        Sklep
+                    </a>
+                </li>
+                <!--<li class="nav__li">
+                    <a href="#box" class="nav__link nav__link--box">
+                        <i class="icon-steam"></i>
+                        Skrzynki
+                    </a>
+                </li>-->
+                <li class="nav__li">
+                    <a href="#rules" class="nav__link nav__link--rules">
+                        <i class="icon-info"></i>
+                        Regulamin
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="header__bar">
+            <div class="header__segment header__segment--videoAuth">
+                <a href="https://www.youtube.com/channel/UCDyoFl3axaufRwkpBA38-1w"  target="_blank">Video by RoyaltyFreeTube</a>
+            </div>
+            <div class="header__segment header__segment--cookie">
+                Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.
+                <a href="https://jakwylaczyccookie.pl/czym-sa-cookies-ciasteczka/" target="_blank" class="icon-help"></a>
+                <i class="header__cookieClose icon-cancel-circled"></i>
+            </div>
+            <div class="header__segment header__segment--buttons">
+                <i class="icon-volume-up"></i>
+                <i class="icon-play"></i>
+            </div>
+        </div>
+        
+        <div class="header__filtr"></div>
+        <video loop  muted  autoplay poster="img/moment.jpg" class="header__video">
+            <source src="img/video.mp4" type="video/mp4">
+        </video>
+    </header>
+    
+    <main  class="main">
+        <article  id="shop" class="main__article">
+            <h2 class="main__h2">
+                Sklep 
+                <a href="#" class="main__close icon-cancel-circled"></a>
+            </h2> 
+            Trwa budowa <i class="icon-emo-thumbsup"></i>
+            
+
+        </article>
+        <article id="box" class="main__article">
+            <h2 class="main__h2">
+                Skrzynki
+                <a href="#" class="main__close icon-cancel-circled"></a>
+            </h2> 
+            
+        </article>
+        <article id="rules" class="main__article">
+            <h2 class="main__h2">
+                Regulamin
+                <a href="#" class="main__close icon-cancel-circled"></a>
+            </h2> 
+            <div class="items">
+                <div class="items__paczka">
+                    <img src="img/bronze.png" class="items__img">
+                    <p class="items__title">Losowy klucz STEAM - Bronze</p>
+                    <span>
+                       <ul class="items__lista">
+                            <li>1 kupiony produkt = 1 losowy klucz na platformę Steam</li>
+                            <li>Kluczę wysyła automat losowo</li>
+                            <li>Kluczę bez blokady regionalnej</li>
+                            <li>Brak darmowych gier!</li>
+                            <li>Brak dodatków DLC!</li>
+                            <li>Brak gier demo!</li>
+                    </ul>
+                    </span>
+                </div>
+
+                <div class="items__paczka">
+                    <img src="img/platinum.png" class="items__img">
+                    <p class="items__title">Losowy klucz STEAM - Platinum</p>
+                    <span>
+                       <ul class="items__lista">
+                            <li>1 kupiony produkt = 1 losowy klucz na platformę Steam</li>
+                            <li>RAZ NA 20 KLUCZY W LOSOWYM MIEJSCU GRATIS KOD PEYSAFECARD 20zł !!!</li>
+                            <li>Kluczę wysyła automat losowo</li>
+                            <li>Kluczę bez blokady regionalnej</li>
+                            <li>Brak darmowych gier!</li>
+                            <li>Brak dodatków DLC!</li>
+                            <li>Brak gier demo!</li>
+                    </ul>
+                    </span>
+                </div>
+            </div>
+            <p class="kontakt">Jeśli masz problem z naszym prduktem napisz na: k44squad+keys@gmail.com </p>
+        </article>
+    </main>
+    
+    <aside class="aside">
+        <noscript class="aside__nojs">
+            Twoja przeglądarka nie obsługuje JavaScript, strona może działać nie poprawnie!
+        </noscript>
+        <div class="aside__warn"></div>
+    </aside>
+</body>
+</html>
